@@ -1,0 +1,24 @@
+header{
+    padding-top: 57px;
+    background: #EEEFF1;
+    padding-bottom: 57px;
+}
+
+header .container{
+    display: flex;
+    align-items: center
+}
+
+.header__logo{
+    @extend %logo-text;
+}
+
+.header__list{
+display: flex;
+margin-left: 398px;
+gap: 42px;
+}
+
+.header__link{
+    @extend %text-link;
+}

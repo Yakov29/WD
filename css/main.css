@@ -36,4 +36,44 @@ a {
 
 address {
   font-style: normal;
+}
+
+.header__logo {
+  font-family: "Revalia";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #34547A;
+}
+
+.header__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.1em;
+  color: #34547A;
+}
+
+header {
+  padding-top: 57px;
+  background: #EEEFF1;
+  padding-bottom: 57px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 398px;
+  gap: 42px;
 }/*# sourceMappingURL=main.css.map */
