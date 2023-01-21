@@ -1,0 +1,42 @@
+.my-skills{
+    padding-top: 102px;
+}
+
+.my-skills .container{
+    display: flex;
+    align-items: center;
+}
+
+.my__box{
+    width: 445px;
+    margin-right: 150px;
+}
+
+.my__name{
+    margin-bottom: 50px;
+}
+
+.my__list{
+    display: block;
+}
+
+.my__item{
+    margin-bottom: 29px;
+}
+
+.my__item:last-child{
+    margin-bottom: 0;
+}
+
+.my__text{
+    @extend %description-text;
+}
+
+.my__text::after{
+    content: "";
+    display: block;
+    width: 445px;
+    height: 4px;
+    background: #34547A;
+    margin-top: 19px;
+}

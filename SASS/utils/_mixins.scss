@@ -1,0 +1,36 @@
+@mixin title-section($color-title) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    color: $color-title;
+  }
+  @mixin text($text-position: left) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.56;
+    text-align: $text-position;
+    color: $base-color;
+  }
+  
+  @mixin grid($grid-left: -30px, $grid-bottom: -30px) {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: $grid-left;
+    margin-bottom: $grid-bottom;
+  }
+  
+  @mixin item($item-left: 30px, $item-bottom: 30px, $items: 3) {
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - ($items * $item-left)) / $items);
+      margin-left: $item-left;
+      margin-bottom: $item-bottom;
+    }
+  }

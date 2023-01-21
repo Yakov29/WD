@@ -1,0 +1,28 @@
+.project{
+    background: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.project__list{
+    display: flex;
+    gap: 49px;
+    justify-content: center;
+}
+
+.project__item{
+    display: flex;
+}
+
+.item__list{
+    display: block;
+    margin-left: 20px;
+    
+}
+
+.text-title{
+    @extend %text-title;
+}
+
+.item__text{
+   @extend %span-text;
+}

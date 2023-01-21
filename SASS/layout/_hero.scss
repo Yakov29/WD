@@ -1,0 +1,35 @@
+.hero{
+    background: #EEEFF1;
+    padding-top: 162px;
+    padding-bottom: 146px;
+}
+
+
+.hero .container{
+    display: flex;
+    justify-content: center;
+}
+
+.hero__box{
+    width: 541px;
+    margin-left: 131px;
+}
+
+h1{
+    margin-bottom: 60px;
+    
+}
+
+.hero__description{
+   @extend %description-text;
+}
+
+.hero__button{
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    margin-top: 60px;
+    border: none;
+    color: #EEEFF1;
+    @extend %span-text;
+}

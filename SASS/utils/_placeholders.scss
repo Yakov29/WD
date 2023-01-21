@@ -2,7 +2,7 @@
     font-family: 'Revalia';
 font-weight: 400;
 font-size: 48px;
-line-height: 60px;
+line-height: 1.25;
 text-align: center;
 color: #34547A;
 
@@ -11,7 +11,28 @@ color: #34547A;
 %text-link {
     font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.62;
 letter-spacing: 0.1em;
 color: #34547A;
+}
+
+%description-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #727272;
+}
+
+%span-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+%text-title {
+    font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+color: #FFFFFF;
 }

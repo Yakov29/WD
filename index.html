@@ -40,81 +40,94 @@
         </ul>
       </div>
     </header>
-    <section>
+    <section class="hero">
       <div class="container">
         <img src="./images/Frame.svg" alt="" />
         <div class="hero__box">
           <h1>Дизайн и верстка</h1>
-          <p>
+          <p class="hero__description">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и
             вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
             латинице с начала XVI века.
           </p>
-          <button type="submit">НАПИСАТЬ МНЕ</button>
+          <button type="button" class="btn hero__button btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            НАПИСАТЬ МНЕ
+          </button>
         </div>
       </div>
     </section>
     <section class="about-me">
       <div class="container">
         <h2>Обо мне</h2>
-        <p>Я в тексте не буду писать про рыбу заглушку!!!(Lorem Ipsum)</p>
+        <p class="about-me__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
       </div>
     </section>
     <section class="project">
       <div class="container">
-        <ul>
-          <li>
+        <ul class="project__list">
+          <li class="project__item">
             <img src="./images/project.svg" alt="" />
-            <ul>
+            <ul class="item__list">
               <li>
-                <span>40+</span>
+                <span class="item__text text-title">40+</span>
               </li>
               <li>
-                <span>проектов</span>
+                <span class="item__text">проектов</span>
               </li>
             </ul>
           </li>
-          <li>
+          <li class="project__item">
             <img src="./images/project.svg" alt="" />
-            <ul>
+            <ul class="item__list">
               <li>
-                <span>40+</span>
+                <span class="item__text text-title">40+</span>
               </li>
               <li>
-                <span>проектов</span>
+                <span class="item__text">проектов</span>
               </li>
             </ul>
           </li>
-          <li>
+          <li class="project__item">
             <img src="./images/project.svg" alt="" />
-            <ul>
+            <ul class="item__list">
               <li>
-                <span>40+</span>
+                <span class="item__text text-title">40+</span>
               </li>
               <li>
-                <span>проектов</span>
+                <span class="item__text">проектов</span>
               </li>
             </ul>
           </li>
-          <li>
+          <li class="project__item">
             <img src="./images/project.svg" alt="" />
-            <ul>
+            <ul class="item__list">
               <li>
-                <span>40+</span>
+                <span class="item__text text-title">40+</span>
               </li>
               <li>
-                <span>проектов</span>
+                <span class="item__text">проектов</span>
               </li>
             </ul>
           </li>
-          <li>
+          <li class="project__item">
             <img src="./images/project.svg" alt="" />
-            <ul>
+            <ul class="item__list">
               <li>
-                <span>40+</span>
+                <span class="item__text text-title">40+</span>
               </li>
               <li>
-                <span>проектов</span>
+                <span class="item__text">проектов</span>
+              </li>
+            </ul>
+          </li>
+          <li class="project__item">
+            <img src="./images/project.svg" alt="" />
+            <ul class="item__list">
+              <li>
+                <span class="item__text text-title">40+</span>
+              </li>
+              <li>
+                <span class="item__text">проектов</span>
               </li>
             </ul>
           </li>
@@ -124,104 +137,132 @@
     <section class="my-skills">
       <div class="container">
         <div class="my__box">
-          <h2>Мои навыки</h2>
-          <ul>
-            <li>
-              <p>Frontend</p>
+          <h2 class="my__name">Мои навыки</h2>
+          <ul class="my__list">
+            <li class="my__item">
+              <p class="my__text">Frontend</p>
             </li>
-            <li>
-              <p>Minecraft Architecture</p>
+            <li class="my__item">
+              <p class="my__text">Minecraft Architecture</p>
             </li>
-            <li>
-              <p>Soft Skills</p>
+            <li class="my__item">
+              <p class="my__text">Soft Skills</p>
             </li>
           </ul>
         </div>
-        <img width="555" src="./images/unnamed.jpg" alt="" />
+        <img width="555" src="./images/unnamed.jpg"/>
       </div>
     </section>
-    <section class="i-work">
+    <section class="work">
       <div class="container">
         <h2>Как я работаю</h2>
-        <p>
-          Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-          вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
-          латинице с начала XVI века.(Тут напишу😂)
+        <p class="work__description">
+          Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
         </p>
         <div class="work__video">
-          <img src="./images/play-button.svg" alt="" />
+          <img width="100px" height="100px" src="./images/play-button.svg" alt="" />
         </div>
       </div>
     </section>
     <section class="photo">
-      <ul>
+      <ul class="photo__list">
         <li>
-          <img src="./images/list1.jpg" alt="" />
+          <img width="480" height="480" src="./images/list1.jpg" alt="" />
         </li>
         <li>
-          <img src="./images/list2.jpg" alt="" />
+          <img width="480" height="480" src="./images/list2.jpg" alt="" />
         </li>
         <li>
-          <img src="./images/list1.jpg" alt="" />
+          <img width="480" height="480" src="./images/list1.jpg" alt="" />
         </li>
         <li>
-          <img src="./images/list2.jpg" alt="" />
+          <img width="480" height="480" src="./images/list2.jpg" alt="" />
         </li>
         <li>
-          <img src="./images/list2.jpg" alt="" />
+          <img width="480" height="480" src="./images/list2.jpg" alt="" />
         </li>
         <li>
-          <img src="./images/list1.jpg" alt="" />
+          <img width="480" height="480" src="./images/list1.jpg" alt="" />
         </li>
         <li>
-          <img src="./images/list2.jpg" alt="" />
+          <img width="480" height="480" src="./images/list2.jpg" alt="" />
         </li>
         <li>
-          <img src="./images/list1.jpg" alt="" />
+          <img width="480px" height="480px" src="./images/list1.jpg" alt="" />
         </li>
       </ul>
     </section>
     <section class="want-web">
       <div class="container">
         <h2>Хотите веб-сайт?</h2>
-        <p>
+        <p class="want-description">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
           вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
           латинице с начала XVI века.
         </p>
         <ul class="want__list">
           <li>
-            <input placeholder="Ваше имя" type="text" />
+            <input class="want__input" required placeholder="Ваше имя" type="text" />
           </li>
           <li>
-            <input placeholder="Ваш e-mail" type="text" />
+            <input class="want__input" required placeholder="Ваш e-mail" type="email" />
           </li>
         </ul>
-        <input placeholder="Сообщение" type="text" />
-        <button type="submit">ОТПРАВИТЬ</button>
+        <ul>
+          <li>
+            <input class="message" placeholder="Сообщение" type="text" />
+          </li>
+          <li>
+            <button type="submit" class="btn want__button btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              ОТПРАВИТЬ
+            </button>
+          </li>
+        </ul>
       </div>
+      <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Предуприждение.</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Этот сайт создан в целях практики и использует файлы bootstrap пожалуйста приймите его.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отклонить bootstrap</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Принять bootstrap</button>
+      </div>
+    </div>
+  </div>
+</div>
     </section>
     <footer class="footer">
       <div class="container">
-        <h3>Яков Деркаченко</h3>
-        <p>
-          Предупреждение: этот сайт является поддельным, создан в целях
-          практики.(с) 2023. Все права защищены.
-        </p>
-        <ul>
+        <div class="footer__box">
+          <h3 class="footer__name">Яков Деркаченко</h3>
+          <p class="footer__description">
+            (с) 2023. Все права защищены.
+          </p>
+        </div>
+        <ul class="footer__list">
           <li>
             <a href="https://www.instagram.com/d.yakov29/"
-              ><img src="./images/iconmonstr-instagram-11.svg" alt=""
+              ><img src="./images/vk-social-network-logo.svg" alt=""
             /></a>
           </li>
           <li>
             <a href="https://www.instagram.com/d.yakov29/"
-              ><img src="./images/iconmonstr-instagram-11.svg" alt=""
+              ><img src="./images/vk-social-network-logo.svg" alt=""
             /></a>
           </li>
           <li>
             <a href="https://www.instagram.com/d.yakov29/"
-              ><img src="./images/iconmonstr-instagram-11.svg" alt=""
+              ><img src="./images/vk-social-network-logo.svg" alt=""
             /></a>
           </li>
         </ul>
