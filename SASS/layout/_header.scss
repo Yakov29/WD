@@ -16,7 +16,7 @@ header .container{
 display: flex;
 margin-left: 398px;
 gap: 42px;
-@media screen and (max-width:767px) {
+@media screen and (max-width:1149px) {
     display: none;
 }
 }
@@ -26,11 +26,10 @@ gap: 42px;
 }
 
 .header__burger{
-    @media screen and (max-width:767px) {
-        position: absolute;
-        right: 22px;
+    @media screen and (max-width:1999px) {
+       margin-left: auto;
     }
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:1150px) {
         display: none;
     }
 }

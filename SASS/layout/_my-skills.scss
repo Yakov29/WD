@@ -1,8 +1,8 @@
 .my-skills{
     padding-top: 102px;
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:1149px) {
         text-align: center;
-       
+       justify-content: center;
     }
 }
 
@@ -19,6 +19,11 @@
     @media screen and (max-width:767px) {
         width: 100% ;
         margin-right: 0;
+    }
+    @media screen and (max-width:1149px) {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -56,7 +61,7 @@
 }
 
 .my-image{
-    @media screen and (max-width:767px) {
+    @media screen and (max-width:1149px) {
         display: none;
     }
 }
