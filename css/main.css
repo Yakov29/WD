@@ -69,7 +69,7 @@ address {
   color: #727272;
 }
 
-.item__text, .hero__button {
+.item__text, .hero__button, .modal-git {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -135,6 +135,18 @@ header .container {
 
 .modal__item:last-child {
   margin-bottom: 0;
+}
+
+.qr-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.modal-git {
+  color: #EEEFF1;
+  width: 225px;
+  height: 65px;
+  background: #34547A;
 }
 
 .hero {
