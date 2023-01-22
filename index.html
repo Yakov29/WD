@@ -38,9 +38,11 @@
             <a class="header__link" href="#">КОНТАКТЫ</a>
           </li>
         </ul>
-        <svg class="header__burger" width="24" height="16">
-          <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
-        </svg>
+        <button class="btn header__burger btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <svg class="header__burger"width="24" height="16">
+            <use href="./images/symbol-defs.svg#icon-menu_24px"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <section class="hero">
@@ -205,15 +207,31 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Предупреждение.</h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Выберете куда отправится.</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        Этот сайт создан в целях практики и использует файлы bootstrap пожалуйста приймите его.
+        <ul class="modal-list">
+          <li class="modal__item">
+            <a class="modal__link" href="#">ГЛАВНАЯ</a>
+          </li>
+          <li class="modal__item">
+            <a class="modal__link" href="#">ОБ АВТОРЕ</a>
+          </li>
+          <li class="modal__item">
+            <a class="modal__link" href="#">РАБОТЫ</a>
+          </li>
+          <li class="modal__item">
+            <a class="modal__link" href="#">ПРОЦЕСС</a>
+          </li>
+          <li class="modal__item">
+            <a class="modal__link" href="#">КОНТАКТЫ</a>
+          </li>
+        </ul>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отклонить bootstrap</button>
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Принять bootstrap</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Готово</button>
       </div>
     </div>
   </div>

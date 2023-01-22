@@ -26,10 +26,28 @@ gap: 42px;
 }
 
 .header__burger{
+    background-color: transparent;
+    border: none;
     @media screen and (max-width:1999px) {
        margin-left: auto;
     }
     @media screen and (min-width:1150px) {
         display: none;
     }
+}
+
+.modal-list{
+    display: block;
+}
+
+.modal__item{
+    margin-bottom: 20px;
+}
+
+.modal__item:last-child{
+    margin-bottom: 0;
+}
+
+.modal__link{
+    @extend %text-link;
 }
