@@ -2,14 +2,24 @@ footer{
     padding-top: 50px;
     padding-bottom: 50px;
     background: #34547A;
+    @media screen and (max-width:767px) {
+        display: block;
+        text-align: center;
+    }
 }
 footer .container{
     display: flex;
     align-items: center;
+    @media screen and (max-width:767px) {
+        display: block;
+    }
 }
 
 .footer__box{
     width: 250px;
+    @media screen and (max-width:767px) {
+        width: 100%;
+    }
 }
 
 .footer__name{

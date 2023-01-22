@@ -8,11 +8,16 @@
 .hero .container{
     display: flex;
     justify-content: center;
+    
 }
 
 .hero__box{
     width: 541px;
     margin-left: 131px;
+    @media screen and (max-width:767px) {
+        margin-left: 0;
+        text-align: center;
+    }
 }
 
 h1{
@@ -32,4 +37,10 @@ h1{
     border: none;
     color: #EEEFF1;
     @extend %span-text;
+}
+
+.hero-img{
+    @media screen and (max-width:767px) {
+        display: none;
+    }
 }

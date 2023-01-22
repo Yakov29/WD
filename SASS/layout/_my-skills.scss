@@ -1,15 +1,25 @@
 .my-skills{
     padding-top: 102px;
+    @media screen and (max-width:767px) {
+        text-align: center;
+       
+    }
 }
 
 .my-skills .container{
     display: flex;
     align-items: center;
+    
 }
 
 .my__box{
     width: 445px;
+    display: block;
     margin-right: 150px;
+    @media screen and (max-width:767px) {
+        width: 100% ;
+        margin-right: 0;
+    }
 }
 
 .my__name{
@@ -22,6 +32,7 @@
 
 .my__item{
     margin-bottom: 29px;
+    
 }
 
 .my__item:last-child{
@@ -39,4 +50,13 @@
     height: 4px;
     background: #34547A;
     margin-top: 19px;
+    @media screen and (max-width:767px) {
+        width: auto;
+    }
+}
+
+.my-image{
+    @media screen and (max-width:767px) {
+        display: none;
+    }
 }

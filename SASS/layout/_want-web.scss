@@ -11,9 +11,6 @@
 
 .want-description{
     @extend %description-text;
-    width: 540px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
 }
 
@@ -23,6 +20,10 @@
     gap: 30px;
     margin-bottom: 20px;
     margin-top: 65px;
+    @media screen and (max-width:767px) {
+        display: block;
+        
+    }
 }
 
 .want__input{
@@ -32,6 +33,16 @@ background: #FFFFFF;
 padding-left: 20px;
 background: #FFFFFF;
 border: none;
+@media screen and (max-width:767px) {
+    margin-bottom: 50px;
+}
+}
+
+.want__input{
+    margin-bottom: 0;
+    @media screen and (max-width:767px) {
+        margin-bottom: 30px;
+    }
 }
 
 .message{
@@ -40,6 +51,9 @@ height: 175px;
 border: none;
 padding-left: 20px;
 padding-bottom: 130px;
+@media screen and (max-width:767px) {
+    width: auto;
+}
 }
 
 .want__button{
