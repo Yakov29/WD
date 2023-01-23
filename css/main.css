@@ -125,8 +125,13 @@ header .container {
   }
 }
 
+.header__burger:hover {
+  fill: #EEEFF1;
+}
+
 .modal-list {
   display: block;
+  margin-bottom: 20px;
 }
 
 .modal__item {
