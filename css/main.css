@@ -69,14 +69,14 @@ address {
   color: #727272;
 }
 
-.item__text, .hero__button, .modal-git {
+.item__text, .hero__button {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
 }
 
-.footer__name, .text-title {
+.footer__name, .text-title, .modal-git {
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
